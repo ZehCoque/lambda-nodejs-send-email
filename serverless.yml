@@ -1,9 +1,9 @@
-service: SES
+service: pumping-emails
 
 provider:
   name: aws
   runtime: nodejs14.x
-  region: sa-east-1
+  region: us-east-1 # trocar para sa-east-1 caso queira usar em são paulo
   lambdaHashingVersion: 20201221
   profile: serverless-admin
   stage: dev
