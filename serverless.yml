@@ -5,7 +5,7 @@ provider:
   runtime: nodejs14.x
   region: us-east-1 # trocar para sa-east-1 caso queira usar em são paulo
   lambdaHashingVersion: 20201221
-  profile: serverless-admin
+  profile: db1-admin
   stage: dev
   timeout: 60
   environment:
